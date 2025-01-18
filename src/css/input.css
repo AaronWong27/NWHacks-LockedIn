@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Run this command to build tailwind
+==============================
+npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
+*/
