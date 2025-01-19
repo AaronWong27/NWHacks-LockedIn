@@ -33,13 +33,26 @@ function Index(){
                     </div>
 
                     <img src={wave} alt="Cartoon-styled blue owl raising one arm up in a wave, with its mouth wide open in a smile."
-                        class="h-[16rem] absolute top-[-2rem] right-0" />
+                        class="h-[16rem] left-auto relative top-[-2rem]" />
                 </div>
-
-                
-            
             </header>
 
+            <main class="relative top-[-4rem] bg-[#88C7E8] px-[10rem]">
+                <div>
+                    <section>
+
+
+                    </section>
+
+                    <section>
+
+                    </section>
+                
+                    <section>
+                        
+                    </section>
+                </div>
+            </main>
 
         </>
     )

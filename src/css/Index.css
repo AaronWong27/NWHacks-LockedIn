@@ -18,3 +18,7 @@ h1, #username{
 .dark-blue{
     color:#0268C8;
 }
+
+.left-auto{
+    margin-left:auto;
+}
