@@ -18,10 +18,10 @@ function Index(){
                     </Link>
                 </nav>
 
-                <div class="flex">
+                <div class="flex relative mt-[5rem]">
                     <div>
                         {/* Heading */}
-                        <h1 class="font-semibold text-[2.5rem] mt-[2rem]">
+                        <h1 class="font-semibold text-[2.5rem]">
                             Hello,&nbsp; 
                             <span id="username" class="dark-blue">
                                 Yonka!</span>
@@ -32,10 +32,11 @@ function Index(){
                         </p>
                     </div>
 
-                    <img src={wave} alt="Cartoon-styled blue owl raising one arm up in a wave, with its mouth wide open in a smile." />
+                    <img src={wave} alt="Cartoon-styled blue owl raising one arm up in a wave, with its mouth wide open in a smile."
+                        class="h-[16rem] absolute top-[-2rem] right-0" />
                 </div>
 
-
+                
             
             </header>
 
