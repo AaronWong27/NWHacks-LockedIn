@@ -1,12 +1,18 @@
 import { useState } from 'react'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 84fe813 (Resolving merge conflicts with App.jsx)
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Index from "./Index.jsx";
 
+<<<<<<< HEAD
 =======
 >>>>>>> 231ca66 (Fixed css import)
+=======
+>>>>>>> 84fe813 (Resolving merge conflicts with App.jsx)
 import './css/App.css'
 
 function App() {
@@ -19,6 +25,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+<<<<<<< HEAD
   )
   return (
     <>
@@ -43,6 +50,8 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
+=======
+>>>>>>> 84fe813 (Resolving merge conflicts with App.jsx)
   )
 }
 
