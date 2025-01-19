@@ -12,10 +12,14 @@ function Index(){
     return(
         <>
             <header class="mx-[10rem] mt-[1rem]"> 
-                <nav>
+                <nav class="flex ">
                     <Link to="/">
                         <img src={logo} alt="Home"
                             class="h-[3rem]" />
+                    </Link>
+
+                    <Link to="/">
+                        <p>LOG IN</p>
                     </Link>
                 </nav>
 
