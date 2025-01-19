@@ -1,12 +1,11 @@
 import { useState } from 'react'
-<<<<<<< HEAD
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Index from "./Index.jsx";
 
-=======
->>>>>>> 231ca66 (Fixed css import)
+import LeetCode from "./LeetCode.jsx";
+
 import './css/App.css'
 
 function App() {
@@ -15,8 +14,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Index />}>
-        </Route>
+        <Route path="/" element={<Index />}/>
+        <Route path="/leetcode" element={<LeetCode />}/>
       </Routes>
     </BrowserRouter>
   )
